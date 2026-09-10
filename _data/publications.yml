@@ -1,3 +1,22 @@
+- title: "A tensor-train multidimensional inverse Laplace transform"
+  authors: Martin Mikkelsen, Michael Kastoryano
+  year: 2026
+  type: Preprint
+  venue: arXiv preprint, 2026.
+  link: https://arxiv.org/abs/2606.06093
+  code: https://github.com/MartinMikkelsen/LaplaceInversion.jl
+  summary: >
+    We develop a tensor train (TT) formulation of the multidimensional inverse Laplace transform. Under suitable low-rank assumptions, this reduces the computational cost from exponential to polynomial in the dimension, provided that the relevant bond dimensions remain bounded.
+
+- title: "Full grid solution for multi-asset options pricing with tensor networks"
+  authors: Lucas Arenstein, Michael Kastoryano
+  year: 2026
+  type: Preprint
+  venue: arXiv preprint, 2026.
+  link: https://arxiv.org/abs/2601.00009
+  summary: >
+     We show that quantized tensor trains (QTT) turn the d-asset Black-Scholes PDE into a tractable high-dimensional problem on a personal computer. We construct QTT representations of the operator, payoffs, and boundary conditions with ranks that scale polynomially in d and polylogarithmically in the grid size, and build two solvers: a time-stepping algorithm for European and American options and a space-time algorithm for European options.
+
 - title: "TensorGRaD: Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training"
   authors: Sebastian Loeschcke, David Pitt, Robert J. George, Jiawei Zhao, Cheng Luo, Yuandong Tian, Jean Kossaifi, Anima Anandkumar
   year: 2025
